@@ -1,0 +1,9 @@
+<?php
+$p = ["Milho", "Abacate", "Limão", "Laranja"];
+$i = 1;
+
+foreach ($p as $item) {
+  echo "$i - $item<br>";
+  $i++;
+}
+?>

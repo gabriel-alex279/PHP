@@ -1,0 +1,6 @@
+<?php
+$numeros = [12, 19, 55, 76];
+
+echo $numeros[0];
+echo $numeros[2];
+?>

@@ -1,0 +1,11 @@
+<?php
+function Login($usuario, $senha) {
+  if ($usuario === "GabTeste" && $senha === "Ratatouille098") {
+    return "O Login foi bem-sucedido!";
+  } else {
+    return "O Usuário ou senha estão incorretos.";
+  }
+}
+
+echo Login("GabTeste", "Ratatouille098");
+?>

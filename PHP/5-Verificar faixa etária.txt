@@ -1,0 +1,13 @@
+<?php
+function faixaEtaria($idade) {
+  if ($idade < 13) {
+    return "É uma Criança.";
+  } elseif ($idade < 18) {
+    return "É um Adolescente.";
+  } else {
+    return "É um Adulto.";
+  }
+}
+
+echo faixaEtaria(16);
+?>

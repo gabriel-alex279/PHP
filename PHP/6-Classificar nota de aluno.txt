@@ -1,0 +1,12 @@
+<?php
+function classificarNota($nota) {
+  if ($nota >= 7) {
+    return "Meus parabens! Você foi Aprovado.";
+  } elseif ($nota >= 5) {
+    return "Sinto muito, mas você vai ficar de Recuperação.";
+  } else {
+    return "Sinto muito, mas você foi Reprovado.";
+  }
+}
+
+echo classificarNota(6);

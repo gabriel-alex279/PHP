@@ -1,0 +1,5 @@
+<?php
+$numeros = [15, 30, 75, 95];
+$soma = array_sum($numeros);
+echo "A soma dos números é: $soma";
+?>

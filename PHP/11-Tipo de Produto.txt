@@ -1,0 +1,23 @@
+<?php
+$c = "A1";
+
+switch ($c) {
+  case "A1":
+    echo "Produto: Xbox Series X";
+    break;
+  case "A2":
+    echo "Produto: Nintendo Switch";
+    break;
+  case "A3":
+    echo "Produto: Notebook";
+    break;
+  case "A4":
+    echo "Produto: Playstation 5";
+    break;
+  case "A5":
+    echo "Produto: Iphone 15";
+    break;
+  default:
+    echo "Código Inválido";
+}
+?>

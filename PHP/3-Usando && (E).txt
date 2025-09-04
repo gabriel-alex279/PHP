@@ -1,0 +1,7 @@
+<?php
+$a = true;
+$b = false;
+
+$resultado = $a && $b;
+echo $resultado;
+?>

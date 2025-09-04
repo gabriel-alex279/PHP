@@ -1,0 +1,11 @@
+<?php
+$user = [
+  "nome" => "Gabriel",
+  "idade" => 23,
+  "email" => "Exemplo@email.com.br"
+];
+
+echo $user["nome"];
+echo $user["idade"]; 
+echo $user["email"];
+?>
